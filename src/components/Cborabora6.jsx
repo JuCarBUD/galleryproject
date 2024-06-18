@@ -1,11 +1,10 @@
 import React from 'react'
-import Cborabora61 from "../images/boraborai.jpg"
+import cborabora61 from "../images/boraborai.jpg"
 
-function Cborabora6() {
+const Cborabora6 = () => {
   return (
     <div>
-        
-        <img src={Cborabora61} alt="Paisaje de Borabora" />
+      <img src={cborabora61} alt="Paisaje de Borabora" />
     </div>
   )
 }
