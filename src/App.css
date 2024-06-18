@@ -1,0 +1,25 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  div {
+    padding: 20px;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  img {
+    width: 100px;
+    height: auto;
+  }
+  
+  figcaption {
+    text-align: center;
+    font-size: 14px;
+  }
+  
