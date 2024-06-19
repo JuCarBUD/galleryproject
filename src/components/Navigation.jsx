@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import Cborabora from './Cborabora.jpg'
-import Cborabora2 from './Cborabora2.jpg'
-import Cborabora3 from './Cborabora3.jpg'
-import Cborabora4 from './Cborabora4.jpg'
-import Cborabora5 from './Cborabora5.jpg'
-import Cborabora6 from './Cborabora6.jpg'
+import Cborabora from './Cborabora'
+import Cborabora2 from './Cborabora2'
+import Cborabora3 from './Cborabora3'
+import Cborabora4 from './Cborabora4'
+import Cborabora5 from './Cborabora5'
+import Cborabora6 from './Cborabora6'
 
 const Navigation = () => {
   return (
