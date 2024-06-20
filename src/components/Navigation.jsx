@@ -9,44 +9,49 @@ import Cborabora6 from './Cborabora6'
 
 const Navigation = () => {
   return (
-    <div>
-        <Link to="./cborabora">
-            <figure>
+    
+    <div className="App" >
+        <Link to="./cborabora" className="links">
+            <figure className="image-size">
                 <Cborabora />
                 <figcaption>Cborabora</figcaption>
             </figure>
         </Link>
-        <Link to="./cborabora2">
-            <figure>
+        <Link to="./cborabora2" className="links">
+            <figure className="image-size">
                 <Cborabora2 />
                 <figcaption>Cborabora2</figcaption>
             </figure>
         </Link>
-        <Link to="./cborabora3">
-            <figure>
+        <Link to="./cborabora3" className="links">
+            <figure className="image-size"> 
                 <Cborabora3 />
                 <figcaption>Cborabora3</figcaption>
             </figure>
         </Link>
-         <Link to="./cborabora4">
-            <figure>
+         <Link to="./cborabora4" className="links">
+            <figure className="image-size">
                 <Cborabora4 />
                 <figcaption>Cborabora4</figcaption>
             </figure>
         </Link>
-        <Link to="./cborabora5">
-            <figure>
+        <Link to="./cborabora5" className="links">
+            <figure className="image-size">
                 <Cborabora5 />
                 <figcaption>Cborabora5</figcaption>
             </figure>
         </Link>
-        <Link to="./cborabora6">
-            <figure>
+        <Link to="./cborabora6" className="links">
+            <figure className="image-size">
                 <Cborabora6 />
                 <figcaption>Cborabora6</figcaption>
             </figure>
         </Link>
     </div>
+    
+        
+        
+    
   )
 }
 
