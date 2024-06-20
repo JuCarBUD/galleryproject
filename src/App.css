@@ -1,63 +1,35 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-}
-
-.App {
+  display: center;
+  align-content: center;
   text-align: center;
 }
 
-#title {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.gallery {
+.links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.image-container {
-  width: 300px;
-  height: 200px;
   overflow: hidden;
   position: relative;
+  text-align: center; /* Alinea el texto al centro */
+  transition: transform 0.3s ease; /* Transición suave */
 }
 
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.5s ease;
+.links:hover .image-size {
+  transform: translateX(-10%); /* Ajusta el desplazamiento al pasar el mouse */
 }
 
-.image-container:hover img {
-  transform: translateX(-100%);
+.image-size {
+  width: 300px; /* Ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hace que la imagen se comporte como bloque para centrarla */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-figure {
+.figure {
   margin: 0;
-  position: relative;
+  position: center;
 }
 
-figcaption {
+.figcaption {
   text-align: center;
   margin-top: 10px;
   font-size: 16px;
-}
-
-.size {
-  text-decoration: none;
-  color: inherit;
 }

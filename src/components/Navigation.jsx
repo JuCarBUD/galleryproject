@@ -9,7 +9,7 @@ import Cborabora6 from './Cborabora6'
 
 const Navigation = () => {
   return (
-    
+    <nav>
     <div className="App" >
         <Link to="./cborabora" className="links">
             <figure className="image-size">
@@ -49,7 +49,7 @@ const Navigation = () => {
         </Link>
     </div>
     
-        
+    </nav>     
         
     
   )
